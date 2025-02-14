@@ -40,6 +40,10 @@ users2 = [
     {"name":"hector","email":"hector@gmail.cat"},
 ]
 
+#pydantic
+
+
+
 @app.post("/create_user")
 def create_user(user:dict):
     print(user)
